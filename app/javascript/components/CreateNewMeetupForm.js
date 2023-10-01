@@ -14,7 +14,7 @@ class CreateNewMeetupForm extends React.Component {
         description: '',
         meeting_date: new Date(),
         seoText: null,
-        technology: this.props.technologies[0].name,
+        technology: this.props.technologies[0]?.name,
         guests: ['']
       },
       warnings: {
